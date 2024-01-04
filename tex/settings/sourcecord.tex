@@ -1,0 +1,31 @@
+\usepackage{listings}
+
+\lstset{%
+  language={C},
+  basicstyle={\small},%
+  identifierstyle={\small},%
+  commentstyle={\small\itshape},%
+  keywordstyle={\small\bfseries},%
+  ndkeywordstyle={\small},%
+  stringstyle={\small\ttfamily},
+  frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},%
+  numbers=left,%
+  xrightmargin=0zw,%
+  xleftmargin=3zw,%
+  numberstyle={\scriptsize},%
+  stepnumber=1,
+  numbersep=1zw,%
+  lineskip=-0.5ex%
+}
+
+\renewcommand{\lstlistingname}{プログラム}
+
+%ファイルから読み込む場合
+%\lstinputlisting[caption=ほげほげ,label=ほげ]{ファイル絶対パス}
+
+%ソースコードを直接書く場合
+%\begin{lstlisting}[caption=ほげほげ,label=ほげ]
+%   ソースコード
+%\end{lstlisting}

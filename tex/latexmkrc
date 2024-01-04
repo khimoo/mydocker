@@ -1,0 +1,40 @@
+#"""
+#参考:https://qiita.com/rainbartown/items/d7718f12d71e688f3573
+#latexmk -pv directory/text.tex でPDF
+#latexmk -pvc directory/text.tex で自動コンパイルPDF表示
+#"""
+#!/usr/bin/env perl
+
+# 生成されるファイルはすべてoutディレクトリに置く
+$out_dir = 'out';
+
+# LaTeX (LuaLaTeXを使用)
+$latex = 'lualatex -synctex=1 -halt-on-error -file-line-error %O %S';
+$max_repeat = 5;
+
+# BibTeX (Biberを使用)
+$bibtex = 'biber %O %S';
+$biber = 'biber --bblencoding=utf8 -u -U --output_safechars %O %S';
+
+# index
+$makeindex = 'mendex %O -o %D %S';
+
+# DVI / PDF
+$dvipdf = 'dvipdfmx %O -o %D %S';
+$pdf_mode = 3;
+
+# preview
+$pvc_view_file_via_temporary = 0;
+if ($^O eq 'linux') {
+    $dvi_previewer = "xdg-open %S";
+    $pdf_previewer = "xdg-open %S";
+} elsif ($^O eq 'darwin') {
+    $dvi_previewer = "open %S";
+    $pdf_previewer = "open %S";
+} else {
+    $dvi_previewer = "start %S";
+    $pdf_previewer = "start %S";
+}
+
+# clean up
+$clean_full_ext = "%R.synctex.gz"

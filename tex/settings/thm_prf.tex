@@ -1,0 +1,51 @@
+    \usepackage{amsthm,amsmath,amssymb}
+
+    \theoremstyle{definition}
+    \newtheorem{dfn}{Definition}[section]
+    \newtheorem{prop}[dfn]{Proposition}
+    \newtheorem{lem}[dfn]{Lemma}
+    \newtheorem{thm}[dfn]{Theorem}
+    \newtheorem*{thm*}{Theorem}
+    \newtheorem{cor}[dfn]{Corollary}
+    \newtheorem{rem}[dfn]{Remark}
+    \newtheorem*{rem*}{Remark}
+    \newtheorem{ex}[dfn]{Example}
+    \newtheorem{fact}[dfn]{Fact}
+    \renewcommand{\qedsymbol}{$\blacksquare$}
+
+%参考:https://qiita.com/hungry_and_fool/items/b28f9bb32ce738889523
+%
+%入力例:
+%\section{二等辺三角形}
+%\begin{dfn}
+%二等辺三角形とは、2つの辺の長さが等しい三角形のことである。
+%\end{dfn}
+%\begin{prop}
+%二等辺三角形の2つの底角の大きさは等しい。
+%\end{prop}
+%
+%\section{正三角形}
+%\begin{dfn}
+%正三角形とは、すべての辺の長さが等しい三角形のことである。
+%\end{dfn}
+%\begin{prop}[正三角形と二等辺三角形]
+%正三角形は二等辺三角形である。
+%\end{prop}
+%\begin{rem*}
+%逆は成り立たない。すなわち、二等辺三角形がすべて正三角形とは限らない。
+%\end{rem*}
+%\begin{thm}
+%\label{angle_eq}
+%正三角形において、すべての角の大きさは等しい。
+%\end{thm}
+%\begin{proof}
+%正三角形$ABC$は、$AB=AC$の二等辺三角形だから、2つの底角は等しい。すなわち$\angle ABC = \angle ACB$である。
+%同様にして、$\angle BCA = \angle BAC, \angle CAB = \angle CBA$が成り立つ。
+%したがって、$\angle ABC = \angle BCA = \angle CAB$が成り立つ。
+%\end{proof}
+%\begin{cor}
+%正三角形の一つの内角の大きさは\ang{60}である。
+%\end{cor}
+%\begin{proof}
+%Theorem \ref{angle_eq}と、三角形の内角の和が\ang{180}であることから従う。
+%\end{proof}

@@ -1,0 +1,31 @@
+\documentclass[12pt,a4paper]{ltjsarticle}
+
+\input{./settings/thm_prf.tex}
+
+\begin{document}
+
+\title{関数解析入門第2回}
+\author{日比野 文}
+\maketitle
+
+\section{Fourier級数が成立する別の例}
+\begin{thm}
+	$f\in C^2_{\mathrm{per}}$のときのFourier級数は収束
+\end{thm}
+\begin{proof}
+	概略:Abelの総和法を用いる。
+\end{proof}
+\begin{rem}
+	最初からフーリエ級数を表示するのではなく収束因子をかけて$r\to 1$とする
+\end{rem}
+
+\section{Poissonの定理}
+\begin{thm}[Poissonの定理]
+	$\forall f \in C_{\mathrm{per}}$に対して、$\mathrm{lim}_{\epsilon \to 0} Prf(x)=f(x)$が一様収束の意味で成立する。
+\end{thm}
+\begin{proof}
+	概略:du Bois-Reymondの例と関数の同定、$\forall f \in C^2_{\mathrm{per}}$のときのFourier級数の収束が絶対収束かつ一様収束で成立すること、加えて３つの補題を用いる。
+\end{proof}
+
+Dirichlet核について２つの性質も紹介された。
+\end{document}
