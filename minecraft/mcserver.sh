@@ -7,8 +7,8 @@ docker compose up -d
 nohup /opt/ngrok tcp 25565&
 
 # 以下discord連携
-DISCORD_BOT_TOKEN=OTU4NTQ1MTc5MzE5NjI3Nzk2.GeDTmj.Lwf-Lu9Kw68XyI6_pwRgXxZSw4UYjp_w246KUE
-DISCORD_CHANNEL_ID=1209641606685134868
+# ただし、envファイルを読み込むためにはsourceコマンドを使う必要がある
+source .env
 MESSAGE="サーバーが起動しました"
 
 # メッセージ送信関数

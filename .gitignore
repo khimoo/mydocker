@@ -4,3 +4,4 @@ wine/exefiles/**
 !wine/exefiles/.gitkeep
 minecraft/data/**
 !minecraft/data/.gitkeep
+minecraft/.env
