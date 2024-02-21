@@ -4,7 +4,7 @@ FROM debian:bookworm-slim
 RUN apt-get update && apt-get upgrade && \
     apt-get install -y sudo && \
     apt-cache search x11 && \
-    apt-get install -y x11-apps xdg-utils xpdf perl wget && \
+    apt-get install -y x11-apps xdg-utils okular perl wget && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
@@ -17,9 +17,10 @@ RUN apt-get update && apt-get upgrade && \
 WORKDIR /tmp
 COPY ./install.sh ./
 RUN chmod +x /tmp/install.sh && \
-    TERM=xterm /tmp/install.sh
-CMD PATH="/usr/local/texlive/$(ls -d /tmp/install-tl-2* | cut -c 17-20)/bin/x86_64-linux:$PATH" && \
-    export PATH=$PATH && \
-    bash
+    TERM=xterm /tmp/install.sh && \
+    echo '# Add TeXLive directories to PATH' >> /root/.bashrc && \
+    echo 'for texlive_bin_dir in /usr/local/texlive/*/bin/x86_64-linux/; do' >> /root/.bashrc && \
+    echo '  export PATH="$PATH:$texlive_bin_dir"' >> /root/.bashrc && \
+    echo 'done' >> /root/.bashrc
 
 WORKDIR /workdir

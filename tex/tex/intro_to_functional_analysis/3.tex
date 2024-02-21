@@ -1,0 +1,32 @@
+\documentclass[12pt,a4paper]{ltjsarticle}
+
+\input{./settings/thm_prf.tex}
+
+\begin{document}
+
+\title{関数解析入門第3回}
+\author{日比野 文}
+\maketitle
+
+\section{要約}
+Fourier展開が絶対収束かつ一様収束の意味で成り立つ$f$について、$f \in C^2_{per} [-\pi, \pi]$であったが、さらに条件を緩めることができる。\\
+\begin{dfn}
+  $L^2$距離を以下のように定義する。
+  \begin{align*}
+    ||f||_2 = (\int^{\pi}_{-\pi} |f(x)|^2 dx)^{\frac{1}{2}}
+  \end{align*}
+\end{dfn}
+これは関数空間での内積を発想元にしている。\\
+  $e_n(x) = \frac{1}{\sqrt{2\pi}} e^{inx}$と定義する。これは関数空間において基底ではないが正規直行基底のような性質を持つ。
+\begin{prop}
+  $f\in C^1_{per} [-\pi, \pi]$に対して、Fourier展開は絶対収束かつ一様収束の意味で収束する\\
+  $f \in C_{per} [-\pi, \pi]$に対して、Fourier展開は絶対収束かつ$L^2$の意味で収束する
+\end{prop}
+\begin{lem}{Besselの不等式}\\
+  $\Sigma^N_{n=-M} \hat{f}(n)e_n||^2_2 \le ||f||^2_2$が成り立つ。
+  \end{lem}
+\begin{proof}
+  $C^1$関数について、$f$は連続であるので$\Sigma_n\in Z$をSchwarzの不等式とBesselの不等式で示す。\\
+  $C^2$関数について、$||f||^2_2 = \Sigma_{n\in Z} |\hat{f}(n)|^2$であることを示せばよい。\\
+\end{proof}
+\end{document}

@@ -2,3 +2,5 @@ tex/out/**
 !tex/out/.gitkeep
 wine/exefiles/**
 !wine/exefiles/.gitkeep
+minecraft/data/**
+!minecraft/data/.gitkeep

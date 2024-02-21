@@ -6,7 +6,7 @@
 #!/usr/bin/env perl
 
 # 生成されるファイルはすべてoutディレクトリに置く
-$out_dir = 'out';
+$out_dir = './out';
 
 # LaTeX (LuaLaTeXを使用)
 $latex = 'lualatex -synctex=1 -halt-on-error -file-line-error %O %S';

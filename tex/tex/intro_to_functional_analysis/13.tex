@@ -1,0 +1,21 @@
+\documentclass[12pt,a4paper]{ltjsarticle}
+
+\input{./settings/thm_prf.tex}
+
+\begin{document}
+
+\title{関数解析入門第13回}
+\author{日比野 文}
+\maketitle
+
+\section{要約}
+急減少関数のときのFourier変換の連続性や、Rieman-Lebesgueの補題について述べた。\\
+このクラスでは畳み込みや微分に対して非常に良い性質を持つ。\\
+例えば、急減少関数は畳み込みや微分を経ても急減少関数であり、それぞれにフーリエ変換後の計算を簡単にする定理が存在する。\\
+畳み込みと微分が急減少関数に属することは定義と式変形（微積の順序交換）、帰納法によって示される。\\
+畳み込みについての証明はFubiniの定理を使って行い、微分についての証明は部分積分を使って行った。\\
+Schwartzの関数空間はFourier変換に対して閉じており、これをつかってFourier変換の逆変換を以下のように定義できる。これは逆写像になっている。\\
+$$
+\mathcal{F}^{-1}f(\xi)=\frac{1}{\sqrt{2\pi}}\int_R f(\xi)e^{i\xi x}d\xi
+$$
+\end{document}
