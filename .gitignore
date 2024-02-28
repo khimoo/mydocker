@@ -4,4 +4,6 @@ wine/exefiles/**
 !wine/exefiles/.gitkeep
 minecraft/data/**
 !minecraft/data/.gitkeep
+minecraft/vps鯖用/**
+!minecraft/vps鯖用/.gitkeep
 minecraft/.env

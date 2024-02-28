@@ -121,3 +121,331 @@ ERROR:    - ts_2cecMBdo7OMmvScMCAS8OxsqPYl (2001:268:99e5:21f2:d07:b596:2163:c1e
 ERROR:  
 ERROR:  ERR_NGROK_108
 ERROR:  
+tcp - start a TCP tunnel
+
+USAGE:
+  ngrok tcp [address:port | port] [flags]
+
+AUTHOR:
+  ngrok - <support@ngrok.com>
+
+COMMANDS: 
+  config          update or migrate ngrok's configuration file
+  http            start an HTTP tunnel
+  tcp             start a TCP tunnel
+  tunnel          start a tunnel for use with a tunnel-group backen
+
+EXAMPLES: 
+  ngrok http 80                                                 # secure public URL for port 80 web server
+  ngrok http --domain baz.ngrok.dev 8080                        # port 8080 available at baz.ngrok.dev
+  ngrok tcp 22                                                  # tunnel arbitrary TCP traffic to port 22
+  ngrok http 80 --oauth=google --oauth-allow-email=foo@foo.com  # secure your app with oauth
+
+Paid Features: 
+  ngrok http 80 --domain mydomain.com                           # run ngrok with your own custom domain
+  ngrok http 80 --allow-cidr 2600:8c00::a03c:91ee:fe69:9695/32  # run ngrok with IP policy restrictions
+  Upgrade your account at https://dashboard.ngrok.com/billing/subscription to access paid features
+
+Upgrade your account at https://dashboard.ngrok.com/billing/subscription to access paid features
+
+Flags:
+  -h, --help      help for ngrok
+
+Use "ngrok [command] --help" for more information about a command.
+
+ERROR:  authentication failed: Your account is limited to 1 simultaneous ngrok agent session.
+ERROR:  You can run multiple tunnels on a single agent session using a configuration file.
+ERROR:  To learn more, see https://ngrok.com/docs/secure-tunnels/ngrok-agent/reference/config/
+ERROR:  
+ERROR:  Active ngrok agent sessions in region 'jp':
+ERROR:    - ts_2cecMBdo7OMmvScMCAS8OxsqPYl (2001:268:99e5:21f2:d07:b596:2163:c1e8)
+ERROR:  
+ERROR:  ERR_NGROK_108
+ERROR:  
+tcp - start a TCP tunnel
+
+USAGE:
+  ngrok tcp [address:port | port] [flags]
+
+AUTHOR:
+  ngrok - <support@ngrok.com>
+
+COMMANDS: 
+  config          update or migrate ngrok's configuration file
+  http            start an HTTP tunnel
+  tcp             start a TCP tunnel
+  tunnel          start a tunnel for use with a tunnel-group backen
+
+EXAMPLES: 
+  ngrok http 80                                                 # secure public URL for port 80 web server
+  ngrok http --domain baz.ngrok.dev 8080                        # port 8080 available at baz.ngrok.dev
+  ngrok tcp 22                                                  # tunnel arbitrary TCP traffic to port 22
+  ngrok http 80 --oauth=google --oauth-allow-email=foo@foo.com  # secure your app with oauth
+
+Paid Features: 
+  ngrok http 80 --domain mydomain.com                           # run ngrok with your own custom domain
+  ngrok http 80 --allow-cidr 2600:8c00::a03c:91ee:fe69:9695/32  # run ngrok with IP policy restrictions
+  Upgrade your account at https://dashboard.ngrok.com/billing/subscription to access paid features
+
+Upgrade your account at https://dashboard.ngrok.com/billing/subscription to access paid features
+
+Flags:
+  -h, --help      help for ngrok
+
+Use "ngrok [command] --help" for more information about a command.
+
+ERROR:  authentication failed: Your account is limited to 1 simultaneous ngrok agent session.
+ERROR:  You can run multiple tunnels on a single agent session using a configuration file.
+ERROR:  To learn more, see https://ngrok.com/docs/secure-tunnels/ngrok-agent/reference/config/
+ERROR:  
+ERROR:  Active ngrok agent sessions in region 'jp':
+ERROR:    - ts_2cecMBdo7OMmvScMCAS8OxsqPYl (2001:268:99e5:21f2:d07:b596:2163:c1e8)
+ERROR:  
+ERROR:  ERR_NGROK_108
+ERROR:  
+tcp - start a TCP tunnel
+
+USAGE:
+  ngrok tcp [address:port | port] [flags]
+
+AUTHOR:
+  ngrok - <support@ngrok.com>
+
+COMMANDS: 
+  config          update or migrate ngrok's configuration file
+  http            start an HTTP tunnel
+  tcp             start a TCP tunnel
+  tunnel          start a tunnel for use with a tunnel-group backen
+
+EXAMPLES: 
+  ngrok http 80                                                 # secure public URL for port 80 web server
+  ngrok http --domain baz.ngrok.dev 8080                        # port 8080 available at baz.ngrok.dev
+  ngrok tcp 22                                                  # tunnel arbitrary TCP traffic to port 22
+  ngrok http 80 --oauth=google --oauth-allow-email=foo@foo.com  # secure your app with oauth
+
+Paid Features: 
+  ngrok http 80 --domain mydomain.com                           # run ngrok with your own custom domain
+  ngrok http 80 --allow-cidr 2600:8c00::a03c:91ee:fe69:9695/32  # run ngrok with IP policy restrictions
+  Upgrade your account at https://dashboard.ngrok.com/billing/subscription to access paid features
+
+Upgrade your account at https://dashboard.ngrok.com/billing/subscription to access paid features
+
+Flags:
+  -h, --help      help for ngrok
+
+Use "ngrok [command] --help" for more information about a command.
+
+ERROR:  authentication failed: Your account is limited to 1 simultaneous ngrok agent session.
+ERROR:  You can run multiple tunnels on a single agent session using a configuration file.
+ERROR:  To learn more, see https://ngrok.com/docs/secure-tunnels/ngrok-agent/reference/config/
+ERROR:  
+ERROR:  Active ngrok agent sessions in region 'jp':
+ERROR:    - ts_2cfM2hbeeM5EBUVDuiskeYfLB0h (202.215.220.26)
+ERROR:  
+ERROR:  ERR_NGROK_108
+ERROR:  
+tcp - start a TCP tunnel
+
+USAGE:
+  ngrok tcp [address:port | port] [flags]
+
+AUTHOR:
+  ngrok - <support@ngrok.com>
+
+COMMANDS: 
+  config          update or migrate ngrok's configuration file
+  http            start an HTTP tunnel
+  tcp             start a TCP tunnel
+  tunnel          start a tunnel for use with a tunnel-group backen
+
+EXAMPLES: 
+  ngrok http 80                                                 # secure public URL for port 80 web server
+  ngrok http --domain baz.ngrok.dev 8080                        # port 8080 available at baz.ngrok.dev
+  ngrok tcp 22                                                  # tunnel arbitrary TCP traffic to port 22
+  ngrok http 80 --oauth=google --oauth-allow-email=foo@foo.com  # secure your app with oauth
+
+Paid Features: 
+  ngrok http 80 --domain mydomain.com                           # run ngrok with your own custom domain
+  ngrok http 80 --allow-cidr 2600:8c00::a03c:91ee:fe69:9695/32  # run ngrok with IP policy restrictions
+  Upgrade your account at https://dashboard.ngrok.com/billing/subscription to access paid features
+
+Upgrade your account at https://dashboard.ngrok.com/billing/subscription to access paid features
+
+Flags:
+  -h, --help      help for ngrok
+
+Use "ngrok [command] --help" for more information about a command.
+
+ERROR:  authentication failed: Your account is limited to 1 simultaneous ngrok agent session.
+ERROR:  You can run multiple tunnels on a single agent session using a configuration file.
+ERROR:  To learn more, see https://ngrok.com/docs/secure-tunnels/ngrok-agent/reference/config/
+ERROR:  
+ERROR:  Active ngrok agent sessions in region 'jp':
+ERROR:    - ts_2ciaHgzHQQIYAU6BIsLuFi1850D (202.215.220.26)
+ERROR:  
+ERROR:  ERR_NGROK_108
+ERROR:  
+tcp - start a TCP tunnel
+
+USAGE:
+  ngrok tcp [address:port | port] [flags]
+
+AUTHOR:
+  ngrok - <support@ngrok.com>
+
+COMMANDS: 
+  config          update or migrate ngrok's configuration file
+  http            start an HTTP tunnel
+  tcp             start a TCP tunnel
+  tunnel          start a tunnel for use with a tunnel-group backen
+
+EXAMPLES: 
+  ngrok http 80                                                 # secure public URL for port 80 web server
+  ngrok http --domain baz.ngrok.dev 8080                        # port 8080 available at baz.ngrok.dev
+  ngrok tcp 22                                                  # tunnel arbitrary TCP traffic to port 22
+  ngrok http 80 --oauth=google --oauth-allow-email=foo@foo.com  # secure your app with oauth
+
+Paid Features: 
+  ngrok http 80 --domain mydomain.com                           # run ngrok with your own custom domain
+  ngrok http 80 --allow-cidr 2600:8c00::a03c:91ee:fe69:9695/32  # run ngrok with IP policy restrictions
+  Upgrade your account at https://dashboard.ngrok.com/billing/subscription to access paid features
+
+Upgrade your account at https://dashboard.ngrok.com/billing/subscription to access paid features
+
+Flags:
+  -h, --help      help for ngrok
+
+Use "ngrok [command] --help" for more information about a command.
+
+ERROR:  authentication failed: Your account is limited to 1 simultaneous ngrok agent session.
+ERROR:  You can run multiple tunnels on a single agent session using a configuration file.
+ERROR:  To learn more, see https://ngrok.com/docs/secure-tunnels/ngrok-agent/reference/config/
+ERROR:  
+ERROR:  Active ngrok agent sessions in region 'jp':
+ERROR:    - ts_2cpCMaN7nOO7b0AmHQNQeuIC9CZ (202.215.220.26)
+ERROR:  
+ERROR:  ERR_NGROK_108
+ERROR:  
+tcp - start a TCP tunnel
+
+USAGE:
+  ngrok tcp [address:port | port] [flags]
+
+AUTHOR:
+  ngrok - <support@ngrok.com>
+
+COMMANDS: 
+  config          update or migrate ngrok's configuration file
+  http            start an HTTP tunnel
+  tcp             start a TCP tunnel
+  tunnel          start a tunnel for use with a tunnel-group backen
+
+EXAMPLES: 
+  ngrok http 80                                                 # secure public URL for port 80 web server
+  ngrok http --domain baz.ngrok.dev 8080                        # port 8080 available at baz.ngrok.dev
+  ngrok tcp 22                                                  # tunnel arbitrary TCP traffic to port 22
+  ngrok http 80 --oauth=google --oauth-allow-email=foo@foo.com  # secure your app with oauth
+
+Paid Features: 
+  ngrok http 80 --domain mydomain.com                           # run ngrok with your own custom domain
+  ngrok http 80 --allow-cidr 2600:8c00::a03c:91ee:fe69:9695/32  # run ngrok with IP policy restrictions
+  Upgrade your account at https://dashboard.ngrok.com/billing/subscription to access paid features
+
+Upgrade your account at https://dashboard.ngrok.com/billing/subscription to access paid features
+
+Flags:
+  -h, --help      help for ngrok
+
+Use "ngrok [command] --help" for more information about a command.
+
+ERROR:  authentication failed: Your account is limited to 1 simultaneous ngrok agent session.
+ERROR:  You can run multiple tunnels on a single agent session using a configuration file.
+ERROR:  To learn more, see https://ngrok.com/docs/secure-tunnels/ngrok-agent/reference/config/
+ERROR:  
+ERROR:  Active ngrok agent sessions in region 'jp':
+ERROR:    - ts_2cpCMaN7nOO7b0AmHQNQeuIC9CZ (202.215.220.26)
+ERROR:  
+ERROR:  ERR_NGROK_108
+ERROR:  
+tcp - start a TCP tunnel
+
+USAGE:
+  ngrok tcp [address:port | port] [flags]
+
+AUTHOR:
+  ngrok - <support@ngrok.com>
+
+COMMANDS: 
+  config          update or migrate ngrok's configuration file
+  http            start an HTTP tunnel
+  tcp             start a TCP tunnel
+  tunnel          start a tunnel for use with a tunnel-group backen
+
+EXAMPLES: 
+  ngrok http 80                                                 # secure public URL for port 80 web server
+  ngrok http --domain baz.ngrok.dev 8080                        # port 8080 available at baz.ngrok.dev
+  ngrok tcp 22                                                  # tunnel arbitrary TCP traffic to port 22
+  ngrok http 80 --oauth=google --oauth-allow-email=foo@foo.com  # secure your app with oauth
+
+Paid Features: 
+  ngrok http 80 --domain mydomain.com                           # run ngrok with your own custom domain
+  ngrok http 80 --allow-cidr 2600:8c00::a03c:91ee:fe69:9695/32  # run ngrok with IP policy restrictions
+  Upgrade your account at https://dashboard.ngrok.com/billing/subscription to access paid features
+
+Upgrade your account at https://dashboard.ngrok.com/billing/subscription to access paid features
+
+Flags:
+  -h, --help      help for ngrok
+
+Use "ngrok [command] --help" for more information about a command.
+
+ERROR:  authentication failed: Your account is limited to 1 simultaneous ngrok agent session.
+ERROR:  You can run multiple tunnels on a single agent session using a configuration file.
+ERROR:  To learn more, see https://ngrok.com/docs/secure-tunnels/ngrok-agent/reference/config/
+ERROR:  
+ERROR:  Active ngrok agent sessions in region 'jp':
+ERROR:    - ts_2cxqr3lZm5ebhKBR2SPVxe3YDmT (202.215.220.26)
+ERROR:  
+ERROR:  ERR_NGROK_108
+ERROR:  
+tcp - start a TCP tunnel
+
+USAGE:
+  ngrok tcp [address:port | port] [flags]
+
+AUTHOR:
+  ngrok - <support@ngrok.com>
+
+COMMANDS: 
+  config          update or migrate ngrok's configuration file
+  http            start an HTTP tunnel
+  tcp             start a TCP tunnel
+  tunnel          start a tunnel for use with a tunnel-group backen
+
+EXAMPLES: 
+  ngrok http 80                                                 # secure public URL for port 80 web server
+  ngrok http --domain baz.ngrok.dev 8080                        # port 8080 available at baz.ngrok.dev
+  ngrok tcp 22                                                  # tunnel arbitrary TCP traffic to port 22
+  ngrok http 80 --oauth=google --oauth-allow-email=foo@foo.com  # secure your app with oauth
+
+Paid Features: 
+  ngrok http 80 --domain mydomain.com                           # run ngrok with your own custom domain
+  ngrok http 80 --allow-cidr 2600:8c00::a03c:91ee:fe69:9695/32  # run ngrok with IP policy restrictions
+  Upgrade your account at https://dashboard.ngrok.com/billing/subscription to access paid features
+
+Upgrade your account at https://dashboard.ngrok.com/billing/subscription to access paid features
+
+Flags:
+  -h, --help      help for ngrok
+
+Use "ngrok [command] --help" for more information about a command.
+
+ERROR:  authentication failed: Your account is limited to 1 simultaneous ngrok agent session.
+ERROR:  You can run multiple tunnels on a single agent session using a configuration file.
+ERROR:  To learn more, see https://ngrok.com/docs/secure-tunnels/ngrok-agent/reference/config/
+ERROR:  
+ERROR:  Active ngrok agent sessions in region 'jp':
+ERROR:    - ts_2cxqr3lZm5ebhKBR2SPVxe3YDmT (202.215.220.26)
+ERROR:  
+ERROR:  ERR_NGROK_108
+ERROR:  
