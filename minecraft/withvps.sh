@@ -26,6 +26,7 @@ done
 
 # vpsとvpnで接続
 ./vps鯖用/vpnclient/vpnclient start # vpncmdでaccountstartupsetを設定していること！
+sudo dhcpcd vpn_aws
 
 # Docker Composeをバックグラウンドで起動
 if [ "$skip_docker_compose" = false ]; then
