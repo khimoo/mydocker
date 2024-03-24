@@ -1,5 +1,7 @@
 tex/out/**
 !tex/out/.gitkeep
+tex/pdfs/**
+!tex/pdfs/.gitkeep
 wine/exefiles/**
 !wine/exefiles/.gitkeep
 minecraft/data/**

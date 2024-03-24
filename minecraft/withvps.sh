@@ -25,7 +25,7 @@ while getopts "cdl" opt; do
 done
 
 # vpsとvpnで接続
-./vps鯖用/vpnclient/vpnclient start # vpncmdでaccountstartupsetを設定していること！
+sudo ./vps鯖用/vpnclient/vpnclient start # vpncmdでaccountstartupsetを設定していること！
 sudo dhcpcd vpn_aws
 
 # Docker Composeをバックグラウンドで起動

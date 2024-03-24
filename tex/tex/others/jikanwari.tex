@@ -1,0 +1,81 @@
+\listfiles
+\documentclass{ltjsarticle}
+\usepackage{tikz}
+
+\begin{document}
+
+% These set the width of a day and the height of an hour.
+\newcommand*\daywidth{3.7cm}
+\newcommand*\hourheight{2.3em}
+
+% The entry style will have two options:
+% * the first option sets how many hours the entry will be (i.e. its height);
+% * the second option sets how many overlapping entries there are (thus
+%   determining the width).
+
+
+%\tikzset{entry/.style 2 args={
+%    draw,
+%    rectangle,
+%    anchor=north west,
+%    line width=0.4pt,
+%    inner sep=0.3333em,
+%    text width={\daywidth/#2-0.6666em-0.4pt},
+%    minimum height=#1*\hourheight,
+%    align=center
+%}}
+\tikzset{entry/.style 2 args={
+    xshift=(0.5334em+0.8pt)/2,
+    yshift=-6pt,
+    draw,
+    line width=0.8pt,
+    font=\sffamily,
+    rectangle,
+    rounded corners,
+    fill=blue!20,
+    anchor=north west,
+    inner sep=0.3333em,
+    text width={\daywidth/#2-1.2em-1.6pt},
+    minimum height=(#1*\hourheight)-2pt,
+    align=center
+}}
+
+% Start the picture and set the x coordinate to correspond to days and the y
+% coordinate to correspond to hours (y should point downwards).
+\begin{tikzpicture}[y=-\hourheight,x=\daywidth]
+
+    % First print a list of times.
+    \foreach \time in {0,...,24}
+        \node[anchor=north east] at (1,\time) {\time:00};
+
+    % Draw some day dividers.
+    \draw (1,0) -- (1,25);
+    \draw (2,0) -- (2,25);
+    \draw (3,0) -- (3,25);
+    \draw (4,0) -- (4,25);
+    \draw (5,0) -- (5,25);
+
+    \node[anchor=north] at (1.5,-1) {調子いい！};
+    % Write the entries. Note that the x coordinate is 1 (for Monday) plus an
+    % appropriate amount of shifting. The y coordinate is simply the starting
+    % time.
+    \node[entry={8}{1}] at (1,1) {睡眠};
+    \node[entry={1}{1}] at (1,9) {ご飯や身だしなみ};
+    \node[entry={3}{1}] at (1,10) {朝数学};
+    \node[entry={1}{1}] at (1,13) {ご飯など};
+    \node[entry={4}{1}] at (1,14) {課題、英語、数学\\(前日に内容を決める)};
+    \node[entry={0.5}{1}] at (1,18) {\scriptsize 振り返り。やりのこし列挙};
+    \node[entry={1.4}{1}] at (1,18.65) {ご飯};
+    \node[entry={3}{1}] at (1,20) {やりのこし、無ければサークルかバイト};
+    \node[entry={1}{1}] at (1,23) {風呂、歯磨きは日付越えるまでに};
+
+    \node[anchor=north] at (2.5,-1) {調子悪い！};
+    \node[entry={3.5}{3}] at (2,9) {Class A};
+    \node[entry={2.5}{3}] at (2.33333,9.5) {Class B};
+    \node[entry={2.5}{3}] at (2.66667,10) {Class C};
+
+    \node[anchor=north] at (3.5,-1) {昨日夜更かし今日急がし};
+
+    \node[anchor=north] at (4.5,-1) {昨日夜更かし今日暇};
+\end{tikzpicture}
+\end{document}
